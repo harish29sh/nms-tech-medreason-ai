@@ -1,0 +1,78 @@
+<!--
+NMS Tech Proprietary Material
+Copyright © 2026 NMS Tech. All Rights Reserved.
+
+Unauthorized copying, redistribution, republication, or commercial use of
+original NMS Tech material is prohibited without prior written authorization.
+Third-party components remain subject to their own licences.
+-->
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>NMS Tech MedReason AI</title>
+<link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+<div class="container">
+<header>
+<h1>NMS Tech MedReason AI</h1>
+<p>Clinical reasoning prototype — Altered Mental Status / Encephalopathy</p>
+</header>
+
+<div class="warning"><strong>Prototype:</strong> Do not enter identifiable patient data. This is not a validated diagnostic or treatment system.</div>
+
+<form id="patientForm">
+<section><h2>Patient & Presenting Complaint</h2>
+<div class="grid">
+<label>Age<input name="age" type="number"></label>
+<label>Sex<select name="sex"><option></option><option>Male</option><option>Female</option><option>Other</option></select></label>
+<label>Chief complaint<input name="chief_complaint" placeholder="e.g. altered sensorium"></label>
+<label>Duration<input name="duration" placeholder="e.g. 12 hours"></label>
+</div>
+<label>History of presenting illness<textarea name="history_of_presenting_illness"></textarea></label>
+</section>
+
+<section><h2>History</h2>
+<div class="grid">
+<label>Past medical history<textarea name="past_medical_history"></textarea></label>
+<label>Past surgical history<textarea name="past_surgical_history"></textarea></label>
+<label>Medication history<textarea name="medication_history"></textarea></label>
+<label>Allergies<textarea name="allergies"></textarea></label>
+<label>Family history<textarea name="family_history"></textarea></label>
+<label>Social history<textarea name="social_history"></textarea></label>
+<label>Personal history<textarea name="personal_history"></textarea></label>
+</div></section>
+
+<section><h2>Examination</h2>
+<label>Examination findings<textarea name="examination"></textarea></label>
+<label>Vitals<textarea name="vitals" placeholder="BP, HR, RR, SpO2, temperature, GCS..."></textarea></label>
+</section>
+
+<section><h2>Investigations</h2>
+<div class="grid">
+<label>Blood tests<textarea name="labs"></textarea></label>
+<label>Culture tests<textarea name="cultures"></textarea></label>
+<label>Biopsy / pathology<textarea name="pathology_biopsy"></textarea></label>
+<label>X-ray<textarea name="xray"></textarea></label>
+<label>USG<textarea name="ultrasound"></textarea></label>
+<label>CT<textarea name="ct"></textarea></label>
+<label>MRI<textarea name="mri"></textarea></label>
+<label>MRA<textarea name="mra"></textarea></label>
+<label>MRV<textarea name="mrv"></textarea></label>
+<label>Contrast details<textarea name="contrast_details" placeholder="With/without contrast; relevant renal/other details"></textarea></label>
+<label>Other investigations<textarea name="other_investigations"></textarea></label>
+</div></section>
+
+<section><h2>Clinical Question</h2>
+<textarea name="question" placeholder="e.g. Give a prioritized differential diagnosis and suggest the next clinical evaluation."></textarea>
+<button type="submit">Analyze</button>
+</section>
+</form>
+
+<section id="result" class="result hidden"></section>
+</div>
+<script src="/static/app.js"></script>
+</body>
+</html>

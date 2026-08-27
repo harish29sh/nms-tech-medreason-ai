@@ -1,0 +1,16 @@
+services:
+  postgres:
+    image: pgvector/pgvector:pg17
+    container_name: medreason-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: medreason
+      POSTGRES_PASSWORD: medreason_dev_password
+      POSTGRES_DB: medreason
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:
