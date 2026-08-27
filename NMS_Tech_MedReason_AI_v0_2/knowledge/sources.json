@@ -1,0 +1,163 @@
+[
+  {
+    "id": "NMS-CORE-2026",
+    "title": "NMS Tech Original Clinical Reasoning Core v0.2",
+    "organization": "NMS Tech",
+    "url": "local://knowledge/complaints.json",
+    "specialties": [
+      "medicine",
+      "surgery",
+      "emergency",
+      "obg",
+      "pediatrics"
+    ],
+    "source_type": "proprietary-original",
+    "verified_on": "2026-08-27",
+    "reuse_policy": "NMS proprietary",
+    "rag_ingestion_allowed": true,
+    "notes": "Original structured summaries written for this repository; not copied textbook passages."
+  },
+  {
+    "id": "ACR-AC",
+    "title": "ACR Appropriateness Criteria",
+    "organization": "American College of Radiology",
+    "url": "https://www.acr.org/clinical-resources/clinical-tools-and-reference/appropriateness-criteria",
+    "specialties": [
+      "radiology",
+      "medicine",
+      "surgery",
+      "emergency",
+      "obg",
+      "pediatrics"
+    ],
+    "source_type": "guideline-portal",
+    "verified_on": "2026-08-27",
+    "reuse_policy": "link-only; permission may be required for reproduction",
+    "rag_ingestion_allowed": false,
+    "notes": "Use current condition-specific criteria; do not copy tables/text without licence review."
+  },
+  {
+    "id": "ACR-AMS-2024",
+    "title": "ACR Appropriateness Criteria: Altered Mental Status, Coma, Delirium, and Psychosis",
+    "organization": "American College of Radiology",
+    "url": "https://acsearch.acr.org/docs/3102409/Narrative/",
+    "specialties": [
+      "neurology",
+      "emergency",
+      "radiology"
+    ],
+    "source_type": "imaging-guideline",
+    "verified_on": "2026-08-27",
+    "reuse_policy": "link-only; permission may be required for reproduction",
+    "rag_ingestion_allowed": false,
+    "notes": "Specific imaging reference for altered mental status; link only in default NMS build."
+  },
+  {
+    "id": "IDSA-GUIDELINES",
+    "title": "IDSA Practice Guidelines",
+    "organization": "Infectious Diseases Society of America",
+    "url": "https://www.idsociety.org/practice-guideline/practice-guidelines/",
+    "specialties": [
+      "infectious-disease",
+      "medicine",
+      "emergency",
+      "pediatrics"
+    ],
+    "source_type": "guideline-portal",
+    "verified_on": "2026-08-27",
+    "reuse_policy": "link-only pending licence review",
+    "rag_ingestion_allowed": false,
+    "notes": "Use current disease-specific guideline applicable to the case."
+  },
+  {
+    "id": "AHA-GUIDELINES",
+    "title": "AHA/ASA Guidelines and Statements",
+    "organization": "American Heart Association",
+    "url": "https://professional.heart.org/en/guidelines-and-statements",
+    "specialties": [
+      "cardiology",
+      "stroke",
+      "emergency",
+      "medicine"
+    ],
+    "source_type": "guideline-portal",
+    "verified_on": "2026-08-27",
+    "reuse_policy": "link-only; reproduction permissions apply",
+    "rag_ingestion_allowed": false,
+    "notes": "Use current condition-specific guideline; do not reproduce protected figures/tables/text."
+  },
+  {
+    "id": "ACOG-CLINICAL",
+    "title": "ACOG Clinical Guidance",
+    "organization": "American College of Obstetricians and Gynecologists",
+    "url": "https://www.acog.org/clinical",
+    "specialties": [
+      "obg"
+    ],
+    "source_type": "guideline-portal",
+    "verified_on": "2026-08-27",
+    "reuse_policy": "link-only pending licence review",
+    "rag_ingestion_allowed": false,
+    "notes": "Official ACOG clinical guidance portal."
+  },
+  {
+    "id": "AAP-CPG",
+    "title": "AAP Clinical Practice Guidelines",
+    "organization": "American Academy of Pediatrics",
+    "url": "https://www.aap.org/en/quality-improvement/clinical-practice-guidelines/",
+    "specialties": [
+      "pediatrics"
+    ],
+    "source_type": "guideline-portal",
+    "verified_on": "2026-08-27",
+    "reuse_policy": "link-only pending licence review",
+    "rag_ingestion_allowed": false,
+    "notes": "Current pediatric clinical practice guideline portal."
+  },
+  {
+    "id": "NICE-GUIDANCE",
+    "title": "NICE Guidance",
+    "organization": "National Institute for Health and Care Excellence",
+    "url": "https://www.nice.org.uk/guidance",
+    "specialties": [
+      "medicine",
+      "surgery",
+      "emergency",
+      "obg",
+      "pediatrics"
+    ],
+    "source_type": "guideline-portal",
+    "verified_on": "2026-08-27",
+    "reuse_policy": "link-only until content-specific reuse terms are reviewed",
+    "rag_ingestion_allowed": false,
+    "notes": "Use current condition-specific NICE guidance where applicable."
+  },
+  {
+    "id": "WHO-AI-LMM",
+    "title": "Ethics and governance of artificial intelligence for health: guidance on large multi-modal models",
+    "organization": "World Health Organization",
+    "url": "https://www.who.int/publications/i/item/9789240084759",
+    "specialties": [
+      "ai-governance"
+    ],
+    "source_type": "governance-guidance",
+    "verified_on": "2026-08-27",
+    "reuse_policy": "link-only in this proprietary build; review WHO licence before reuse",
+    "rag_ingestion_allowed": false,
+    "notes": "Governance/safety reference, not a bedside clinical guideline."
+  },
+  {
+    "id": "CDSCO-MDS-2026",
+    "title": "Guidance document on Medical Device Software under MDR-2017",
+    "organization": "CDSCO, Government of India",
+    "url": "https://www.cdsco.gov.in/opencms/opencms/en/Medical-Device-Diagnostics/Medical-Device-Diagnostics/",
+    "specialties": [
+      "regulatory"
+    ],
+    "source_type": "regulatory-guidance",
+    "verified_on": "2026-08-27",
+    "reuse_policy": "link-only in repository",
+    "rag_ingestion_allowed": false,
+    "notes": "Released 21 July 2026; assess applicability before clinical deployment."
+  }
+]
