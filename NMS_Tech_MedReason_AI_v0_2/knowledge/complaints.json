@@ -1,0 +1,2826 @@
+[
+  {
+    "id": "AMS",
+    "specialty": "medicine",
+    "aliases": [
+      "altered sensorium",
+      "altered mental status",
+      "encephalopathy",
+      "confusion",
+      "drowsiness",
+      "coma"
+    ],
+    "syndrome": "Altered mental status / encephalopathy",
+    "red_flags": [
+      "Airway compromise",
+      "Hypoxia",
+      "Hypoglycaemia",
+      "Shock",
+      "New focal neurological deficit",
+      "Ongoing/recurrent seizure",
+      "Meningism/sepsis"
+    ],
+    "differentials": [
+      {
+        "name": "Metabolic encephalopathy",
+        "category": "metabolic",
+        "support_keywords": [
+          "diabetes",
+          "glucose",
+          "sodium",
+          "renal",
+          "electrolyte",
+          "acid base"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Toxic/drug-related encephalopathy",
+        "category": "toxic",
+        "support_keywords": [
+          "drug",
+          "overdose",
+          "poison",
+          "sedative",
+          "alcohol"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "CNS infection / meningoencephalitis",
+        "category": "infectious",
+        "support_keywords": [
+          "fever",
+          "headache",
+          "neck stiffness",
+          "meningism",
+          "immunocompromised"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Stroke / intracranial haemorrhage / structural lesion",
+        "category": "structural",
+        "support_keywords": [
+          "focal",
+          "weakness",
+          "sudden",
+          "trauma",
+          "severe headache"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Seizure-related/postictal state",
+        "category": "neurologic",
+        "support_keywords": [
+          "seizure",
+          "tongue bite",
+          "incontinence",
+          "postictal"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Hypoxic encephalopathy",
+        "category": "systemic",
+        "support_keywords": [
+          "hypoxia",
+          "cardiac arrest",
+          "respiratory failure"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Hepatic encephalopathy",
+        "category": "metabolic",
+        "support_keywords": [
+          "cirrhosis",
+          "liver",
+          "jaundice",
+          "ascites"
+        ],
+        "base_priority": "moderate"
+      },
+      {
+        "name": "Uraemic encephalopathy",
+        "category": "metabolic",
+        "support_keywords": [
+          "kidney",
+          "dialysis",
+          "uremia",
+          "renal failure"
+        ],
+        "base_priority": "moderate"
+      }
+    ],
+    "key_history_questions": [
+      "Exact onset and progression",
+      "Baseline cognition",
+      "Fever/headache/neck stiffness",
+      "Seizure or postictal features",
+      "Medication/toxin exposure",
+      "Diabetes, liver or kidney disease",
+      "Trauma",
+      "Alcohol/substance history"
+    ],
+    "focused_examination": [
+      "ABCs and GCS/mental status",
+      "Full vital signs including SpO2 and temperature",
+      "Pupils and focal neurological examination",
+      "Meningeal signs when appropriate",
+      "Signs of liver/renal/systemic disease"
+    ],
+    "initial_evaluation": [
+      "Immediate capillary glucose",
+      "CBC, electrolytes, renal and liver profile as clinically indicated",
+      "ABG/VBG when respiratory/acid-base disorder is possible",
+      "ECG when relevant",
+      "Cultures/CSF/EEG/toxicology based on findings",
+      "Neuroimaging based on clinical scenario and radiology guidance"
+    ],
+    "reference_ids": [
+      "NMS-CORE-2026",
+      "ACR-AMS-2024",
+      "ACR-AC",
+      "IDSA-GUIDELINES",
+      "NICE-GUIDANCE"
+    ]
+  },
+  {
+    "id": "FEVER",
+    "specialty": "medicine",
+    "aliases": [
+      "fever",
+      "pyrexia",
+      "febrile illness"
+    ],
+    "syndrome": "Acute/subacute febrile illness",
+    "red_flags": [
+      "Shock",
+      "Altered mental status",
+      "Severe respiratory distress",
+      "Meningism",
+      "Non-blanching rash/bleeding",
+      "Severe dehydration"
+    ],
+    "differentials": [
+      {
+        "name": "Viral infection",
+        "category": "infectious",
+        "support_keywords": [
+          "viral",
+          "coryza",
+          "myalgia",
+          "contact"
+        ],
+        "base_priority": "moderate"
+      },
+      {
+        "name": "Bacterial infection",
+        "category": "infectious",
+        "support_keywords": [
+          "localizing",
+          "purulent",
+          "high fever",
+          "rigor"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Vector-borne infection",
+        "category": "infectious",
+        "support_keywords": [
+          "travel",
+          "mosquito",
+          "chills",
+          "endemic"
+        ],
+        "base_priority": "moderate"
+      },
+      {
+        "name": "Enteric/systemic infection",
+        "category": "infectious",
+        "support_keywords": [
+          "water",
+          "food",
+          "abdominal"
+        ],
+        "base_priority": "moderate"
+      },
+      {
+        "name": "Inflammatory/autoimmune disease",
+        "category": "inflammatory",
+        "support_keywords": [
+          "rash",
+          "joint",
+          "autoimmune"
+        ],
+        "base_priority": "lower"
+      },
+      {
+        "name": "Malignancy-related fever",
+        "category": "oncology",
+        "support_keywords": [
+          "weight loss",
+          "night sweats",
+          "lymph node"
+        ],
+        "base_priority": "lower"
+      }
+    ],
+    "key_history_questions": [
+      "Duration/pattern",
+      "Travel and exposure",
+      "Respiratory/urinary/GI/CNS/localizing symptoms",
+      "Drug history",
+      "Immunosuppression",
+      "Animal/vector exposure"
+    ],
+    "focused_examination": [
+      "Vitals and hydration",
+      "Skin/rash",
+      "ENT/chest/abdomen",
+      "Neurological examination when indicated",
+      "Nodes/joints"
+    ],
+    "initial_evaluation": [
+      "CBC and targeted chemistry based on severity",
+      "Urinalysis/culture if urinary source suspected",
+      "Blood cultures when bacteremia/sepsis suspected",
+      "Targeted rapid tests/PCR/serology based on epidemiology",
+      "Imaging only when a focus is suspected"
+    ],
+    "reference_ids": [
+      "NMS-CORE-2026",
+      "IDSA-GUIDELINES",
+      "NICE-GUIDANCE"
+    ]
+  },
+  {
+    "id": "CHEST_PAIN",
+    "specialty": "medicine",
+    "aliases": [
+      "chest pain",
+      "retrosternal pain",
+      "precordial pain"
+    ],
+    "syndrome": "Acute chest pain syndrome",
+    "red_flags": [
+      "Haemodynamic instability",
+      "Ongoing severe pain",
+      "Syncope",
+      "Acute dyspnoea/hypoxia",
+      "New neurological deficit"
+    ],
+    "differentials": [
+      {
+        "name": "Acute coronary syndrome",
+        "category": "cardiac",
+        "support_keywords": [
+          "pressure",
+          "exertion",
+          "diabetes",
+          "radiation",
+          "sweating"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Aortic syndrome",
+        "category": "vascular",
+        "support_keywords": [
+          "tearing",
+          "sudden",
+          "back",
+          "pulse deficit"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Pulmonary embolism",
+        "category": "vascular",
+        "support_keywords": [
+          "pleuritic",
+          "tachycardia",
+          "immobility",
+          "dvt",
+          "hypoxia"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Pneumothorax",
+        "category": "respiratory",
+        "support_keywords": [
+          "sudden",
+          "pleuritic",
+          "unilateral",
+          "trauma"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Pericarditis",
+        "category": "cardiac",
+        "support_keywords": [
+          "positional",
+          "pleuritic",
+          "viral"
+        ],
+        "base_priority": "moderate"
+      },
+      {
+        "name": "Gastro-oesophageal/musculoskeletal pain",
+        "category": "other",
+        "support_keywords": [
+          "meal",
+          "reproducible",
+          "movement"
+        ],
+        "base_priority": "moderate"
+      }
+    ],
+    "key_history_questions": [
+      "Character/onset/radiation",
+      "Exertional or pleuritic nature",
+      "Dyspnoea/syncope",
+      "Cardiovascular risk",
+      "VTE risk",
+      "Trauma",
+      "GI/musculoskeletal associations"
+    ],
+    "focused_examination": [
+      "ABCs/vitals",
+      "Cardiovascular examination",
+      "Chest examination",
+      "Pulse symmetry",
+      "DVT signs"
+    ],
+    "initial_evaluation": [
+      "ECG promptly when ACS is possible",
+      "Cardiac biomarkers per local pathway",
+      "Chest imaging based on scenario",
+      "CBC/chemistry as indicated",
+      "VTE/aortic imaging only when clinical probability supports it"
+    ],
+    "reference_ids": [
+      "NMS-CORE-2026",
+      "AHA-GUIDELINES",
+      "ACR-AC",
+      "NICE-GUIDANCE"
+    ]
+  },
+  {
+    "id": "DYSPNEA",
+    "specialty": "medicine",
+    "aliases": [
+      "shortness of breath",
+      "dyspnea",
+      "dyspnoea",
+      "breathlessness",
+      "breathing difficulty"
+    ],
+    "syndrome": "Acute/subacute dyspnoea",
+    "red_flags": [
+      "Hypoxia",
+      "Exhaustion",
+      "Silent chest",
+      "Shock",
+      "Altered mental status",
+      "Stridor"
+    ],
+    "differentials": [
+      {
+        "name": "Asthma/COPD exacerbation",
+        "category": "respiratory",
+        "support_keywords": [
+          "wheeze",
+          "asthma",
+          "copd",
+          "smoker"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Pneumonia",
+        "category": "infectious",
+        "support_keywords": [
+          "fever",
+          "cough",
+          "sputum",
+          "pleuritic"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Acute heart failure",
+        "category": "cardiac",
+        "support_keywords": [
+          "orthopnea",
+          "pnd",
+          "edema",
+          "heart failure"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Pulmonary embolism",
+        "category": "vascular",
+        "support_keywords": [
+          "sudden",
+          "pleuritic",
+          "dvt",
+          "immobility"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Pneumothorax",
+        "category": "respiratory",
+        "support_keywords": [
+          "sudden",
+          "unilateral",
+          "trauma"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Metabolic/anemia/other systemic cause",
+        "category": "systemic",
+        "support_keywords": [
+          "anemia",
+          "acidosis",
+          "renal"
+        ],
+        "base_priority": "moderate"
+      }
+    ],
+    "key_history_questions": [
+      "Onset and triggers",
+      "Cough/fever/wheeze",
+      "Orthopnoea/PND/oedema",
+      "VTE risk",
+      "Smoking/occupational history",
+      "Cardiac and respiratory history"
+    ],
+    "focused_examination": [
+      "Respiratory effort and SpO2",
+      "Chest auscultation",
+      "Cardiac exam",
+      "JVP/oedema",
+      "DVT signs"
+    ],
+    "initial_evaluation": [
+      "Pulse oximetry",
+      "ECG",
+      "Chest X-ray when indicated",
+      "CBC/renal/electrolytes",
+      "ABG/VBG for severe respiratory illness",
+      "Targeted cardiac/VTE testing by probability"
+    ],
+    "reference_ids": [
+      "NMS-CORE-2026",
+      "AHA-GUIDELINES",
+      "ACR-AC",
+      "IDSA-GUIDELINES"
+    ]
+  },
+  {
+    "id": "HEADACHE",
+    "specialty": "medicine",
+    "aliases": [
+      "headache",
+      "worst headache"
+    ],
+    "syndrome": "Acute/subacute headache",
+    "red_flags": [
+      "Thunderclap onset",
+      "Focal deficit",
+      "Reduced consciousness",
+      "Papilloedema",
+      "Meningism/fever",
+      "Pregnancy/postpartum with severe headache"
+    ],
+    "differentials": [
+      {
+        "name": "Primary headache disorder",
+        "category": "neurologic",
+        "support_keywords": [
+          "migraine",
+          "photophobia",
+          "recurrent",
+          "aura"
+        ],
+        "base_priority": "moderate"
+      },
+      {
+        "name": "Subarachnoid/intracranial haemorrhage",
+        "category": "vascular",
+        "support_keywords": [
+          "thunderclap",
+          "worst",
+          "sudden",
+          "neck"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Meningitis/encephalitis",
+        "category": "infectious",
+        "support_keywords": [
+          "fever",
+          "neck stiffness",
+          "confusion"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Raised intracranial pressure/mass",
+        "category": "structural",
+        "support_keywords": [
+          "papilledema",
+          "vomiting",
+          "progressive",
+          "focal"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Cerebral venous thrombosis",
+        "category": "vascular",
+        "support_keywords": [
+          "postpartum",
+          "pregnancy",
+          "thrombosis",
+          "ocp"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Secondary systemic cause",
+        "category": "systemic",
+        "support_keywords": [
+          "hypertension",
+          "infection",
+          "drug"
+        ],
+        "base_priority": "moderate"
+      }
+    ],
+    "key_history_questions": [
+      "Onset/time to peak",
+      "Previous similar headaches",
+      "Fever/neck stiffness",
+      "Neurological symptoms",
+      "Pregnancy/postpartum/OCP/VTE risk",
+      "Trauma",
+      "Medication/substance history"
+    ],
+    "focused_examination": [
+      "Vitals",
+      "Neurological examination",
+      "Fundoscopy where feasible",
+      "Meningeal signs",
+      "Temporal artery/ENT examination as indicated"
+    ],
+    "initial_evaluation": [
+      "Imaging and vascular/venous imaging only when red flags/clinical question justify it",
+      "Laboratory/CSF workup based on suspected secondary cause"
+    ],
+    "reference_ids": [
+      "NMS-CORE-2026",
+      "ACR-AC",
+      "AHA-GUIDELINES",
+      "IDSA-GUIDELINES"
+    ]
+  },
+  {
+    "id": "SEIZURE",
+    "specialty": "medicine",
+    "aliases": [
+      "seizure",
+      "convulsion",
+      "fit",
+      "status epilepticus"
+    ],
+    "syndrome": "Seizure / transient loss of awareness",
+    "red_flags": [
+      "Status epilepticus",
+      "Persistent depressed consciousness",
+      "Hypoglycaemia",
+      "Pregnancy/eclampsia concern",
+      "Meningism",
+      "Focal deficit"
+    ],
+    "differentials": [
+      {
+        "name": "Epileptic seizure",
+        "category": "neurologic",
+        "support_keywords": [
+          "tonic",
+          "clonic",
+          "tongue bite",
+          "postictal"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Provoked metabolic seizure",
+        "category": "metabolic",
+        "support_keywords": [
+          "glucose",
+          "sodium",
+          "renal",
+          "alcohol withdrawal"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "CNS infection",
+        "category": "infectious",
+        "support_keywords": [
+          "fever",
+          "meningism",
+          "headache"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Structural/vascular CNS lesion",
+        "category": "structural",
+        "support_keywords": [
+          "focal",
+          "stroke",
+          "trauma",
+          "tumor"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Syncope with movements",
+        "category": "cardiac",
+        "support_keywords": [
+          "prodrome",
+          "standing",
+          "rapid recovery"
+        ],
+        "base_priority": "moderate"
+      }
+    ],
+    "key_history_questions": [
+      "Witness description",
+      "Duration/recovery",
+      "Previous seizures",
+      "Medication adherence",
+      "Alcohol/drugs",
+      "Fever/trauma",
+      "Pregnancy possibility"
+    ],
+    "focused_examination": [
+      "ABCs and glucose",
+      "Neurological exam",
+      "Injury assessment",
+      "Cardiac examination"
+    ],
+    "initial_evaluation": [
+      "Glucose/electrolytes and targeted labs",
+      "ECG",
+      "EEG and neuroimaging based on first-seizure/focal/red-flag scenario",
+      "Infection workup when indicated"
+    ],
+    "reference_ids": [
+      "NMS-CORE-2026",
+      "ACR-AC",
+      "NICE-GUIDANCE"
+    ]
+  },
+  {
+    "id": "JAUNDICE",
+    "specialty": "medicine",
+    "aliases": [
+      "jaundice",
+      "yellow eyes",
+      "icterus"
+    ],
+    "syndrome": "Jaundice / hyperbilirubinaemia syndrome",
+    "red_flags": [
+      "Sepsis/cholangitis features",
+      "Coagulopathy/bleeding",
+      "Altered mental status",
+      "Severe abdominal pain/shock"
+    ],
+    "differentials": [
+      {
+        "name": "Hepatocellular injury",
+        "category": "hepatic",
+        "support_keywords": [
+          "alt",
+          "ast",
+          "viral",
+          "drug",
+          "alcohol"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Extrahepatic biliary obstruction",
+        "category": "biliary",
+        "support_keywords": [
+          "pale stool",
+          "dark urine",
+          "pruritus",
+          "dilated duct"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Haemolysis",
+        "category": "hematology",
+        "support_keywords": [
+          "anemia",
+          "reticulocyte",
+          "ldh",
+          "indirect"
+        ],
+        "base_priority": "moderate"
+      },
+      {
+        "name": "Cholangitis/cholelithiasis",
+        "category": "biliary",
+        "support_keywords": [
+          "fever",
+          "ruq",
+          "pain"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Pancreatic/biliary malignancy",
+        "category": "oncology",
+        "support_keywords": [
+          "weight loss",
+          "painless",
+          "age"
+        ],
+        "base_priority": "moderate"
+      }
+    ],
+    "key_history_questions": [
+      "Pain/fever/pruritus",
+      "Urine/stool colour",
+      "Alcohol/drugs",
+      "Viral/exposure history",
+      "Weight loss",
+      "Previous gallstones/liver disease"
+    ],
+    "focused_examination": [
+      "Vitals",
+      "Icterus/pallor",
+      "Abdominal/liver/spleen exam",
+      "Chronic liver disease signs"
+    ],
+    "initial_evaluation": [
+      "Fractionated bilirubin and liver profile",
+      "CBC/hemolysis tests when indicated",
+      "Ultrasound to assess biliary dilation when obstruction suspected",
+      "CT/MRI/MRCP or other tests based on clinical question"
+    ],
+    "reference_ids": [
+      "NMS-CORE-2026",
+      "ACR-AC",
+      "NICE-GUIDANCE"
+    ]
+  },
+  {
+    "id": "GI_BLEED",
+    "specialty": "medicine",
+    "aliases": [
+      "hematemesis",
+      "haematemesis",
+      "melena",
+      "melaena",
+      "gi bleed",
+      "rectal bleeding",
+      "hematochezia"
+    ],
+    "syndrome": "Gastrointestinal bleeding",
+    "red_flags": [
+      "Shock",
+      "Ongoing large-volume bleeding",
+      "Syncope",
+      "Severe anaemia",
+      "Anticoagulation with active bleed"
+    ],
+    "differentials": [
+      {
+        "name": "Upper GI mucosal bleeding",
+        "category": "gastro",
+        "support_keywords": [
+          "hematemesis",
+          "melena",
+          "nsaid",
+          "ulcer"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Variceal bleeding",
+        "category": "hepatic",
+        "support_keywords": [
+          "cirrhosis",
+          "portal",
+          "varix"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Lower GI bleeding",
+        "category": "gastro",
+        "support_keywords": [
+          "hematochezia",
+          "diverticular",
+          "colitis"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Malignancy/inflammatory lesion",
+        "category": "gastro",
+        "support_keywords": [
+          "weight loss",
+          "change bowel",
+          "chronic"
+        ],
+        "base_priority": "moderate"
+      }
+    ],
+    "key_history_questions": [
+      "Bleed type/quantity",
+      "Syncope",
+      "NSAIDs/anticoagulants",
+      "Liver disease",
+      "Bowel changes/weight loss"
+    ],
+    "focused_examination": [
+      "ABCs/vitals",
+      "Perfusion",
+      "Abdominal/rectal examination when appropriate",
+      "Signs of chronic liver disease"
+    ],
+    "initial_evaluation": [
+      "CBC",
+      "Coagulation profile",
+      "Renal/liver profile",
+      "Type and screen/crossmatch per clinical severity",
+      "Endoscopy/imaging pathway according to suspected source and stability"
+    ],
+    "reference_ids": [
+      "NMS-CORE-2026",
+      "ACR-AC",
+      "NICE-GUIDANCE"
+    ]
+  },
+  {
+    "id": "ABDOMINAL_PAIN",
+    "specialty": "medicine",
+    "aliases": [
+      "abdominal pain",
+      "stomach pain",
+      "epigastric pain"
+    ],
+    "syndrome": "Acute/subacute abdominal pain",
+    "red_flags": [
+      "Peritonism",
+      "Shock",
+      "GI bleeding",
+      "Persistent vomiting",
+      "Pregnancy with acute pain",
+      "Pulsatile mass"
+    ],
+    "differentials": [
+      {
+        "name": "Gastrointestinal inflammatory/infectious disease",
+        "category": "gastro",
+        "support_keywords": [
+          "diarrhea",
+          "fever",
+          "food"
+        ],
+        "base_priority": "moderate"
+      },
+      {
+        "name": "Biliary disease",
+        "category": "surgery",
+        "support_keywords": [
+          "ruq",
+          "fatty",
+          "jaundice"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Pancreatitis",
+        "category": "gastro",
+        "support_keywords": [
+          "epigastric",
+          "back",
+          "lipase",
+          "alcohol"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Appendicitis",
+        "category": "surgery",
+        "support_keywords": [
+          "rif",
+          "migration",
+          "anorexia"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Bowel obstruction/perforation",
+        "category": "surgery",
+        "support_keywords": [
+          "distension",
+          "obstipation",
+          "vomiting",
+          "peritonitis"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Urinary/renal cause",
+        "category": "urology",
+        "support_keywords": [
+          "flank",
+          "dysuria",
+          "hematuria"
+        ],
+        "base_priority": "moderate"
+      },
+      {
+        "name": "Gynecologic/obstetric cause",
+        "category": "obg",
+        "support_keywords": [
+          "pregnancy",
+          "pelvic",
+          "pv bleeding"
+        ],
+        "base_priority": "high"
+      }
+    ],
+    "key_history_questions": [
+      "Site/onset/migration",
+      "Vomiting/bowel symptoms",
+      "Urinary symptoms",
+      "Pregnancy/LMP when relevant",
+      "Previous surgery",
+      "Alcohol/drugs"
+    ],
+    "focused_examination": [
+      "Vitals",
+      "Abdominal inspection/auscultation/palpation",
+      "Peritonism",
+      "Hernial or pelvic exam when clinically appropriate"
+    ],
+    "initial_evaluation": [
+      "CBC/chemistry/liver profile/lipase or urinalysis as guided by presentation",
+      "Pregnancy testing when relevant",
+      "USG/CT or other imaging based on age, location and differential"
+    ],
+    "reference_ids": [
+      "NMS-CORE-2026",
+      "ACR-AC",
+      "NICE-GUIDANCE"
+    ]
+  },
+  {
+    "id": "COUGH",
+    "specialty": "medicine",
+    "aliases": [
+      "cough",
+      "productive cough",
+      "dry cough"
+    ],
+    "syndrome": "Acute/subacute cough",
+    "red_flags": [
+      "Hypoxia",
+      "Respiratory distress",
+      "Hemoptysis",
+      "Sepsis",
+      "Stridor"
+    ],
+    "differentials": [
+      {
+        "name": "Viral respiratory infection",
+        "category": "infectious",
+        "support_keywords": [
+          "coryza",
+          "viral",
+          "contact"
+        ],
+        "base_priority": "moderate"
+      },
+      {
+        "name": "Pneumonia",
+        "category": "infectious",
+        "support_keywords": [
+          "fever",
+          "sputum",
+          "pleuritic",
+          "crepitations"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Asthma/COPD",
+        "category": "respiratory",
+        "support_keywords": [
+          "wheeze",
+          "asthma",
+          "smoker"
+        ],
+        "base_priority": "moderate"
+      },
+      {
+        "name": "Tuberculosis/other chronic infection",
+        "category": "infectious",
+        "support_keywords": [
+          "weight loss",
+          "night sweats",
+          "chronic",
+          "tb contact"
+        ],
+        "base_priority": "moderate"
+      },
+      {
+        "name": "Heart failure",
+        "category": "cardiac",
+        "support_keywords": [
+          "orthopnea",
+          "edema",
+          "pnd"
+        ],
+        "base_priority": "moderate"
+      }
+    ],
+    "key_history_questions": [
+      "Duration",
+      "Sputum/hemoptysis",
+      "Fever",
+      "Dyspnoea/wheeze",
+      "TB/exposure/travel",
+      "Smoking/medications"
+    ],
+    "focused_examination": [
+      "SpO2 and respiratory rate",
+      "Chest examination",
+      "Cardiac/oedema signs"
+    ],
+    "initial_evaluation": [
+      "Chest X-ray when pneumonia/chronic disease/red flags suspected",
+      "Targeted microbiology based on suspected infection",
+      "CBC/other labs based on severity"
+    ],
+    "reference_ids": [
+      "NMS-CORE-2026",
+      "IDSA-GUIDELINES",
+      "ACR-AC"
+    ]
+  },
+  {
+    "id": "SYNCOPE",
+    "specialty": "medicine",
+    "aliases": [
+      "syncope",
+      "fainting",
+      "transient loss of consciousness"
+    ],
+    "syndrome": "Transient loss of consciousness / syncope",
+    "red_flags": [
+      "Exertional syncope",
+      "Chest pain",
+      "Palpitations",
+      "Family history sudden death",
+      "Persistent hypotension",
+      "Neurological deficit"
+    ],
+    "differentials": [
+      {
+        "name": "Reflex/vasovagal syncope",
+        "category": "cardiac",
+        "support_keywords": [
+          "trigger",
+          "prodrome",
+          "standing"
+        ],
+        "base_priority": "moderate"
+      },
+      {
+        "name": "Orthostatic hypotension",
+        "category": "systemic",
+        "support_keywords": [
+          "standing",
+          "dehydration",
+          "antihypertensive"
+        ],
+        "base_priority": "moderate"
+      },
+      {
+        "name": "Cardiac arrhythmia/structural disease",
+        "category": "cardiac",
+        "support_keywords": [
+          "palpitation",
+          "exertion",
+          "heart disease"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Seizure",
+        "category": "neurologic",
+        "support_keywords": [
+          "postictal",
+          "tongue bite",
+          "convulsion"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Metabolic cause",
+        "category": "metabolic",
+        "support_keywords": [
+          "glucose",
+          "anemia",
+          "electrolyte"
+        ],
+        "base_priority": "moderate"
+      }
+    ],
+    "key_history_questions": [
+      "Circumstances/posture",
+      "Prodrome",
+      "Duration/recovery",
+      "Palpitations/chest pain",
+      "Witnessed movements",
+      "Medication/dehydration",
+      "Family cardiac history"
+    ],
+    "focused_examination": [
+      "Orthostatic vitals where appropriate",
+      "Cardiac examination",
+      "Neurological exam",
+      "Injury assessment"
+    ],
+    "initial_evaluation": [
+      "ECG",
+      "Glucose",
+      "CBC/chemistry when clinically indicated",
+      "Further cardiac/neurologic testing guided by risk features"
+    ],
+    "reference_ids": [
+      "NMS-CORE-2026",
+      "AHA-GUIDELINES",
+      "NICE-GUIDANCE"
+    ]
+  },
+  {
+    "id": "ACUTE_ABDOMEN",
+    "specialty": "surgery",
+    "aliases": [
+      "acute abdomen",
+      "guarding",
+      "rigidity",
+      "peritonitis"
+    ],
+    "syndrome": "Surgical acute abdomen",
+    "red_flags": [
+      "Shock",
+      "Generalized peritonitis",
+      "Free perforation concern",
+      "Strangulated obstruction",
+      "Ruptured ectopic/AAA concern"
+    ],
+    "differentials": [
+      {
+        "name": "Perforated viscus",
+        "category": "surgery",
+        "support_keywords": [
+          "rigidity",
+          "free air",
+          "sudden"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Appendicitis",
+        "category": "surgery",
+        "support_keywords": [
+          "rif",
+          "migration",
+          "anorexia"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Acute cholecystitis/cholangitis",
+        "category": "surgery",
+        "support_keywords": [
+          "ruq",
+          "fever",
+          "jaundice"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Bowel obstruction/strangulation",
+        "category": "surgery",
+        "support_keywords": [
+          "distension",
+          "vomiting",
+          "obstipation",
+          "hernia"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Pancreatitis",
+        "category": "gastro",
+        "support_keywords": [
+          "epigastric",
+          "back",
+          "lipase"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Mesenteric ischemia",
+        "category": "vascular",
+        "support_keywords": [
+          "pain out of proportion",
+          "af",
+          "vascular"
+        ],
+        "base_priority": "high"
+      }
+    ],
+    "key_history_questions": [
+      "Onset/site/migration",
+      "Vomiting/bowel passage",
+      "Prior operations",
+      "Hernia",
+      "GI bleed",
+      "Pregnancy possibility"
+    ],
+    "focused_examination": [
+      "Hemodynamic assessment",
+      "Abdominal peritonism",
+      "Hernial orifices",
+      "Rectal/pelvic exam if indicated"
+    ],
+    "initial_evaluation": [
+      "CBC/chemistry/lactate or relevant labs based on severity",
+      "Pregnancy test when relevant",
+      "Urgent imaging selection based on suspected pathology and local protocol"
+    ],
+    "reference_ids": [
+      "NMS-CORE-2026",
+      "ACR-AC",
+      "NICE-GUIDANCE"
+    ]
+  },
+  {
+    "id": "RIF_PAIN",
+    "specialty": "surgery",
+    "aliases": [
+      "right iliac fossa pain",
+      "rif pain",
+      "right lower quadrant pain",
+      "rlq pain"
+    ],
+    "syndrome": "Right iliac fossa/right lower quadrant pain",
+    "red_flags": [
+      "Peritonitis",
+      "Shock",
+      "Pregnancy with pain/bleeding",
+      "Testicular torsion symptoms"
+    ],
+    "differentials": [
+      {
+        "name": "Appendicitis",
+        "category": "surgery",
+        "support_keywords": [
+          "migration",
+          "anorexia",
+          "fever",
+          "rebound"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Ileitis/colitis",
+        "category": "gastro",
+        "support_keywords": [
+          "diarrhea",
+          "ibd"
+        ],
+        "base_priority": "moderate"
+      },
+      {
+        "name": "Ureteric stone/UTI",
+        "category": "urology",
+        "support_keywords": [
+          "dysuria",
+          "hematuria",
+          "flank"
+        ],
+        "base_priority": "moderate"
+      },
+      {
+        "name": "Ectopic pregnancy/ovarian pathology",
+        "category": "obg",
+        "support_keywords": [
+          "pregnancy",
+          "lmp",
+          "pv bleeding"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Hernia",
+        "category": "surgery",
+        "support_keywords": [
+          "groin",
+          "lump",
+          "cough impulse"
+        ],
+        "base_priority": "moderate"
+      }
+    ],
+    "key_history_questions": [
+      "Pain migration",
+      "Anorexia/vomiting",
+      "Bowel/urinary symptoms",
+      "LMP/pregnancy possibility",
+      "Groin symptoms"
+    ],
+    "focused_examination": [
+      "Vitals",
+      "Abdominal exam",
+      "Hernial orifices",
+      "Pelvic/testicular exam when clinically indicated"
+    ],
+    "initial_evaluation": [
+      "CBC/urinalysis",
+      "Pregnancy testing when relevant",
+      "Ultrasound or CT depending on patient group and clinical scenario"
+    ],
+    "reference_ids": [
+      "NMS-CORE-2026",
+      "ACR-AC",
+      "NICE-GUIDANCE"
+    ]
+  },
+  {
+    "id": "OBSTRUCTION",
+    "specialty": "surgery",
+    "aliases": [
+      "intestinal obstruction",
+      "bowel obstruction",
+      "obstipation",
+      "abdominal distension"
+    ],
+    "syndrome": "Suspected bowel obstruction",
+    "red_flags": [
+      "Peritonitis",
+      "Shock",
+      "Continuous severe pain/strangulation concern",
+      "Fever with toxicity"
+    ],
+    "differentials": [
+      {
+        "name": "Adhesive small-bowel obstruction",
+        "category": "surgery",
+        "support_keywords": [
+          "previous surgery",
+          "adhesion"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Hernia-related obstruction",
+        "category": "surgery",
+        "support_keywords": [
+          "hernia",
+          "groin lump"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Malignant obstruction",
+        "category": "oncology",
+        "support_keywords": [
+          "weight loss",
+          "age",
+          "change bowel"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Volvulus",
+        "category": "surgery",
+        "support_keywords": [
+          "distension",
+          "elderly",
+          "sigmoid"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Ileus/pseudo-obstruction",
+        "category": "systemic",
+        "support_keywords": [
+          "postop",
+          "electrolyte",
+          "medication"
+        ],
+        "base_priority": "moderate"
+      }
+    ],
+    "key_history_questions": [
+      "Prior surgery",
+      "Hernia",
+      "Bowel/flatus passage",
+      "Vomiting",
+      "Cancer history",
+      "Medication/electrolyte issues"
+    ],
+    "focused_examination": [
+      "Vitals/hydration",
+      "Distension/tenderness/peritonism",
+      "Bowel sounds",
+      "Hernial orifices"
+    ],
+    "initial_evaluation": [
+      "CBC/chemistry and lactate when severity warrants",
+      "Abdominal imaging based on obstruction/complication concern"
+    ],
+    "reference_ids": [
+      "NMS-CORE-2026",
+      "ACR-AC",
+      "NICE-GUIDANCE"
+    ]
+  },
+  {
+    "id": "BREAST_LUMP",
+    "specialty": "surgery",
+    "aliases": [
+      "breast lump",
+      "breast mass"
+    ],
+    "syndrome": "Breast lump/mass",
+    "red_flags": [
+      "Inflammatory breast with sepsis",
+      "Ulcerated/bleeding mass",
+      "Rapidly progressive symptoms"
+    ],
+    "differentials": [
+      {
+        "name": "Fibroadenoma/benign solid lesion",
+        "category": "breast",
+        "support_keywords": [
+          "young",
+          "mobile",
+          "firm"
+        ],
+        "base_priority": "moderate"
+      },
+      {
+        "name": "Breast cyst",
+        "category": "breast",
+        "support_keywords": [
+          "fluctuant",
+          "cyclical"
+        ],
+        "base_priority": "moderate"
+      },
+      {
+        "name": "Breast carcinoma",
+        "category": "oncology",
+        "support_keywords": [
+          "hard",
+          "irregular",
+          "node",
+          "nipple retraction"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Mastitis/abscess",
+        "category": "infectious",
+        "support_keywords": [
+          "lactation",
+          "fever",
+          "tender",
+          "red"
+        ],
+        "base_priority": "high"
+      }
+    ],
+    "key_history_questions": [
+      "Duration/change",
+      "Pain/cycle relation",
+      "Pregnancy/lactation",
+      "Nipple discharge",
+      "Family history",
+      "Previous imaging/biopsy"
+    ],
+    "focused_examination": [
+      "Bilateral breast and nodal examination with consent/chaperone as appropriate"
+    ],
+    "initial_evaluation": [
+      "Age-appropriate breast imaging",
+      "Biopsy/cytology based on imaging and clinical assessment"
+    ],
+    "reference_ids": [
+      "NMS-CORE-2026",
+      "ACR-AC",
+      "NICE-GUIDANCE"
+    ]
+  },
+  {
+    "id": "LIMB_ISCHEMIA",
+    "specialty": "surgery",
+    "aliases": [
+      "acute limb ischemia",
+      "acute limb ischaemia",
+      "cold limb",
+      "pulseless limb"
+    ],
+    "syndrome": "Possible acute limb ischaemia",
+    "red_flags": [
+      "Pain, pallor, pulselessness, paraesthesia, paralysis, poikilothermia",
+      "Rapid neurologic deficit"
+    ],
+    "differentials": [
+      {
+        "name": "Arterial embolism",
+        "category": "vascular",
+        "support_keywords": [
+          "af",
+          "sudden",
+          "embolus"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "In-situ arterial thrombosis",
+        "category": "vascular",
+        "support_keywords": [
+          "pad",
+          "claudication",
+          "atherosclerosis"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Graft/stent thrombosis",
+        "category": "vascular",
+        "support_keywords": [
+          "graft",
+          "stent"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Compartment/other vascular emergency",
+        "category": "vascular",
+        "support_keywords": [
+          "trauma",
+          "swelling",
+          "tense"
+        ],
+        "base_priority": "high"
+      }
+    ],
+    "key_history_questions": [
+      "Exact onset",
+      "Prior claudication",
+      "AF/embolism risk",
+      "Vascular procedures",
+      "Trauma"
+    ],
+    "focused_examination": [
+      "Bilateral pulses",
+      "Motor/sensory assessment",
+      "Temperature/colour/capillary refill"
+    ],
+    "initial_evaluation": [
+      "Urgent vascular assessment",
+      "Doppler/vascular imaging according to limb viability and local pathway"
+    ],
+    "reference_ids": [
+      "NMS-CORE-2026",
+      "ACR-AC",
+      "AHA-GUIDELINES"
+    ]
+  },
+  {
+    "id": "TRAUMA",
+    "specialty": "surgery",
+    "aliases": [
+      "trauma",
+      "road traffic accident",
+      "rta",
+      "fall",
+      "injury"
+    ],
+    "syndrome": "Trauma assessment",
+    "red_flags": [
+      "Airway compromise",
+      "Major haemorrhage",
+      "Shock",
+      "Reduced GCS",
+      "Chest instability",
+      "Pelvic instability"
+    ],
+    "differentials": [
+      {
+        "name": "Head injury",
+        "category": "trauma",
+        "support_keywords": [
+          "head",
+          "gcs",
+          "loss consciousness"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Thoracic injury",
+        "category": "trauma",
+        "support_keywords": [
+          "chest",
+          "dyspnea",
+          "rib"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Abdominal/pelvic injury",
+        "category": "trauma",
+        "support_keywords": [
+          "abdomen",
+          "pelvis",
+          "seatbelt"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Spinal injury",
+        "category": "trauma",
+        "support_keywords": [
+          "neck",
+          "back",
+          "neurologic"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Extremity fracture/vascular injury",
+        "category": "trauma",
+        "support_keywords": [
+          "deformity",
+          "pulse",
+          "limb"
+        ],
+        "base_priority": "high"
+      }
+    ],
+    "key_history_questions": [
+      "Mechanism/energy",
+      "Loss of consciousness",
+      "Anticoagulants",
+      "Pain sites",
+      "Pregnancy possibility"
+    ],
+    "focused_examination": [
+      "Primary survey",
+      "Secondary survey",
+      "Neurovascular limb assessment",
+      "Spine precautions per clinical context"
+    ],
+    "initial_evaluation": [
+      "Imaging is mechanism/exam dependent; follow local trauma and radiology protocols"
+    ],
+    "reference_ids": [
+      "NMS-CORE-2026",
+      "ACR-AC"
+    ]
+  },
+  {
+    "id": "PV_BLEEDING",
+    "specialty": "obg",
+    "aliases": [
+      "pv bleeding",
+      "vaginal bleeding",
+      "bleeding in pregnancy"
+    ],
+    "syndrome": "Vaginal bleeding / obstetric-gynaecologic bleeding",
+    "red_flags": [
+      "Haemodynamic instability",
+      "Pregnancy with pain/bleeding",
+      "Heavy ongoing bleeding",
+      "Syncope"
+    ],
+    "differentials": [
+      {
+        "name": "Early pregnancy loss",
+        "category": "obg",
+        "support_keywords": [
+          "pregnancy",
+          "amenorrhea",
+          "cramps"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Ectopic pregnancy",
+        "category": "obg",
+        "support_keywords": [
+          "pregnancy",
+          "unilateral pain",
+          "syncope"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Placental/late-pregnancy bleeding cause",
+        "category": "obg",
+        "support_keywords": [
+          "pregnant",
+          "third trimester"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Abnormal uterine bleeding",
+        "category": "obg",
+        "support_keywords": [
+          "nonpregnant",
+          "cycle",
+          "heavy"
+        ],
+        "base_priority": "moderate"
+      },
+      {
+        "name": "Cervical/endometrial pathology",
+        "category": "obg",
+        "support_keywords": [
+          "postcoital",
+          "postmenopausal",
+          "weight loss"
+        ],
+        "base_priority": "moderate"
+      }
+    ],
+    "key_history_questions": [
+      "LMP/pregnancy possibility",
+      "Gestational age",
+      "Amount/clots",
+      "Pain",
+      "Syncope",
+      "Postcoital/postmenopausal status",
+      "Medication/anticoagulants"
+    ],
+    "focused_examination": [
+      "Vitals/perfusion",
+      "Abdominal examination",
+      "Pelvic/speculum examination only when clinically appropriate and safe"
+    ],
+    "initial_evaluation": [
+      "Pregnancy test when relevant",
+      "CBC",
+      "Blood group/other labs based on severity",
+      "Ultrasound based on pregnancy status and presentation"
+    ],
+    "reference_ids": [
+      "NMS-CORE-2026",
+      "ACOG-CLINICAL",
+      "ACR-AC"
+    ]
+  },
+  {
+    "id": "AMENORRHEA",
+    "specialty": "obg",
+    "aliases": [
+      "amenorrhea",
+      "amenorrhoea",
+      "missed period",
+      "missed periods"
+    ],
+    "syndrome": "Amenorrhoea",
+    "red_flags": [
+      "Pregnancy with acute pain/bleeding",
+      "Severe headache/visual symptoms suggesting pituitary emergency"
+    ],
+    "differentials": [
+      {
+        "name": "Pregnancy",
+        "category": "obg",
+        "support_keywords": [
+          "sexually active",
+          "missed",
+          "nausea"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Hypothalamic/functional amenorrhea",
+        "category": "endocrine",
+        "support_keywords": [
+          "weight loss",
+          "exercise",
+          "stress"
+        ],
+        "base_priority": "moderate"
+      },
+      {
+        "name": "PCOS/anovulation",
+        "category": "endocrine",
+        "support_keywords": [
+          "hirsutism",
+          "acne",
+          "irregular"
+        ],
+        "base_priority": "moderate"
+      },
+      {
+        "name": "Hyperprolactinemia/pituitary disorder",
+        "category": "endocrine",
+        "support_keywords": [
+          "galactorrhea",
+          "headache",
+          "visual"
+        ],
+        "base_priority": "moderate"
+      },
+      {
+        "name": "Ovarian insufficiency/menopause",
+        "category": "endocrine",
+        "support_keywords": [
+          "hot flush",
+          "age"
+        ],
+        "base_priority": "moderate"
+      },
+      {
+        "name": "Thyroid/systemic disease",
+        "category": "endocrine",
+        "support_keywords": [
+          "thyroid",
+          "chronic disease"
+        ],
+        "base_priority": "moderate"
+      }
+    ],
+    "key_history_questions": [
+      "Pregnancy possibility",
+      "Menstrual history",
+      "Weight/exercise/stress",
+      "Hyperandrogen symptoms",
+      "Galactorrhoea/headache",
+      "Medication history"
+    ],
+    "focused_examination": [
+      "General/endocrine examination",
+      "BMI",
+      "Signs of androgen excess/thyroid disease"
+    ],
+    "initial_evaluation": [
+      "Pregnancy testing first when relevant",
+      "Targeted endocrine testing guided by history",
+      "Pelvic ultrasound when indicated"
+    ],
+    "reference_ids": [
+      "NMS-CORE-2026",
+      "ACOG-CLINICAL",
+      "NICE-GUIDANCE"
+    ]
+  },
+  {
+    "id": "PELVIC_PAIN",
+    "specialty": "obg",
+    "aliases": [
+      "pelvic pain",
+      "lower abdominal pain female"
+    ],
+    "syndrome": "Acute/subacute pelvic pain",
+    "red_flags": [
+      "Pregnancy with pain/bleeding",
+      "Shock",
+      "Fever/sepsis",
+      "Peritonism"
+    ],
+    "differentials": [
+      {
+        "name": "Ectopic pregnancy",
+        "category": "obg",
+        "support_keywords": [
+          "pregnancy",
+          "amenorrhea",
+          "bleeding"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Ovarian torsion",
+        "category": "obg",
+        "support_keywords": [
+          "sudden",
+          "unilateral",
+          "vomiting"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Pelvic inflammatory disease",
+        "category": "infectious",
+        "support_keywords": [
+          "discharge",
+          "fever",
+          "cervical motion"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Ovarian cyst/endometriosis",
+        "category": "obg",
+        "support_keywords": [
+          "cyclical",
+          "chronic",
+          "cyst"
+        ],
+        "base_priority": "moderate"
+      },
+      {
+        "name": "Appendicitis/urinary/GI cause",
+        "category": "other",
+        "support_keywords": [
+          "rif",
+          "dysuria",
+          "bowel"
+        ],
+        "base_priority": "moderate"
+      }
+    ],
+    "key_history_questions": [
+      "LMP/pregnancy",
+      "Pain onset/site",
+      "Bleeding/discharge",
+      "Sexual/STI history as appropriate",
+      "Urinary/GI symptoms"
+    ],
+    "focused_examination": [
+      "Vitals",
+      "Abdominal exam",
+      "Pelvic examination with consent/chaperone when clinically appropriate"
+    ],
+    "initial_evaluation": [
+      "Pregnancy test",
+      "CBC/urinalysis and infection testing as indicated",
+      "Pelvic ultrasound usually first-line imaging for many gynecologic questions"
+    ],
+    "reference_ids": [
+      "NMS-CORE-2026",
+      "ACOG-CLINICAL",
+      "ACR-AC"
+    ]
+  },
+  {
+    "id": "POSTPARTUM_FEVER",
+    "specialty": "obg",
+    "aliases": [
+      "postpartum fever",
+      "puerperal fever"
+    ],
+    "syndrome": "Postpartum febrile illness",
+    "red_flags": [
+      "Sepsis/shock",
+      "Severe abdominal pain",
+      "Heavy bleeding",
+      "Dyspnoea/hypoxia",
+      "Neurological symptoms"
+    ],
+    "differentials": [
+      {
+        "name": "Endometritis",
+        "category": "infectious",
+        "support_keywords": [
+          "uterine tenderness",
+          "lochia",
+          "cesarean"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Urinary infection",
+        "category": "infectious",
+        "support_keywords": [
+          "dysuria",
+          "urine"
+        ],
+        "base_priority": "moderate"
+      },
+      {
+        "name": "Wound infection",
+        "category": "infectious",
+        "support_keywords": [
+          "wound",
+          "redness",
+          "discharge"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Mastitis",
+        "category": "infectious",
+        "support_keywords": [
+          "breast",
+          "lactation",
+          "tender"
+        ],
+        "base_priority": "moderate"
+      },
+      {
+        "name": "VTE/other postpartum complication",
+        "category": "vascular",
+        "support_keywords": [
+          "leg swelling",
+          "dyspnea",
+          "chest pain"
+        ],
+        "base_priority": "high"
+      }
+    ],
+    "key_history_questions": [
+      "Postpartum day/delivery mode",
+      "Lochia/uterine pain",
+      "Urinary symptoms",
+      "Wound/breast symptoms",
+      "Dyspnoea/leg symptoms"
+    ],
+    "focused_examination": [
+      "Vitals/sepsis assessment",
+      "Abdomen/uterus",
+      "Wound",
+      "Breast if symptomatic",
+      "VTE assessment"
+    ],
+    "initial_evaluation": [
+      "CBC and cultures guided by severity/source",
+      "Urine testing",
+      "Imaging based on suspected retained products/abscess/VTE"
+    ],
+    "reference_ids": [
+      "NMS-CORE-2026",
+      "ACOG-CLINICAL",
+      "IDSA-GUIDELINES"
+    ]
+  },
+  {
+    "id": "PED_FEVER",
+    "specialty": "pediatrics",
+    "aliases": [
+      "child fever",
+      "pediatric fever",
+      "paediatric fever",
+      "fever child",
+      "fever infant"
+    ],
+    "syndrome": "Fever in child/infant",
+    "red_flags": [
+      "Age-specific high-risk fever",
+      "Poor perfusion",
+      "Lethargy",
+      "Respiratory distress",
+      "Non-blanching rash",
+      "Meningism",
+      "Dehydration"
+    ],
+    "differentials": [
+      {
+        "name": "Viral infection",
+        "category": "infectious",
+        "support_keywords": [
+          "coryza",
+          "contact",
+          "viral"
+        ],
+        "base_priority": "moderate"
+      },
+      {
+        "name": "Bacterial infection",
+        "category": "infectious",
+        "support_keywords": [
+          "toxic",
+          "localizing",
+          "high fever"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Urinary infection",
+        "category": "infectious",
+        "support_keywords": [
+          "urine",
+          "dysuria",
+          "unexplained fever"
+        ],
+        "base_priority": "moderate"
+      },
+      {
+        "name": "Pneumonia",
+        "category": "infectious",
+        "support_keywords": [
+          "cough",
+          "tachypnea",
+          "crepitations"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "CNS infection",
+        "category": "infectious",
+        "support_keywords": [
+          "meningism",
+          "seizure",
+          "bulging fontanelle"
+        ],
+        "base_priority": "high"
+      }
+    ],
+    "key_history_questions": [
+      "Exact age",
+      "Duration",
+      "Feeding/urine output",
+      "Respiratory/GI/urinary symptoms",
+      "Rash",
+      "Immunization",
+      "Exposure"
+    ],
+    "focused_examination": [
+      "Pediatric vital signs",
+      "Hydration/perfusion",
+      "Respiratory effort",
+      "Skin/rash",
+      "ENT/chest/abdomen/neuro"
+    ],
+    "initial_evaluation": [
+      "Testing should be age-, appearance- and focus-dependent; follow current pediatric guidance and local protocol"
+    ],
+    "reference_ids": [
+      "NMS-CORE-2026",
+      "AAP-CPG",
+      "IDSA-GUIDELINES",
+      "NICE-GUIDANCE"
+    ]
+  },
+  {
+    "id": "PED_BREATHING",
+    "specialty": "pediatrics",
+    "aliases": [
+      "child breathing difficulty",
+      "pediatric dyspnea",
+      "paediatric dyspnoea",
+      "child wheeze"
+    ],
+    "syndrome": "Respiratory difficulty in child",
+    "red_flags": [
+      "Cyanosis/hypoxia",
+      "Apnoea",
+      "Exhaustion",
+      "Stridor at rest",
+      "Severe retractions",
+      "Altered mental status"
+    ],
+    "differentials": [
+      {
+        "name": "Viral bronchiolitis",
+        "category": "respiratory",
+        "support_keywords": [
+          "infant",
+          "coryza",
+          "wheeze",
+          "crackles"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Asthma/wheeze",
+        "category": "respiratory",
+        "support_keywords": [
+          "wheeze",
+          "recurrent",
+          "atopy"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Pneumonia",
+        "category": "infectious",
+        "support_keywords": [
+          "fever",
+          "tachypnea",
+          "focal"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Upper airway obstruction",
+        "category": "airway",
+        "support_keywords": [
+          "stridor",
+          "drooling",
+          "bark"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Foreign body aspiration",
+        "category": "airway",
+        "support_keywords": [
+          "sudden",
+          "choking",
+          "unilateral"
+        ],
+        "base_priority": "high"
+      }
+    ],
+    "key_history_questions": [
+      "Age",
+      "Onset",
+      "Choking",
+      "Fever/coryza",
+      "Previous wheeze",
+      "Feeding/apnoea"
+    ],
+    "focused_examination": [
+      "SpO2/respiratory rate/work of breathing",
+      "Air entry/wheeze/stridor",
+      "Hydration/perfusion"
+    ],
+    "initial_evaluation": [
+      "Testing/imaging only as indicated by severity and suspected diagnosis; follow pediatric guidance"
+    ],
+    "reference_ids": [
+      "NMS-CORE-2026",
+      "AAP-CPG",
+      "ACR-AC"
+    ]
+  },
+  {
+    "id": "PED_SEIZURE",
+    "specialty": "pediatrics",
+    "aliases": [
+      "child seizure",
+      "febrile seizure",
+      "pediatric seizure",
+      "paediatric seizure"
+    ],
+    "syndrome": "Seizure in child",
+    "red_flags": [
+      "Ongoing seizure/status",
+      "Persistent altered consciousness",
+      "Meningism",
+      "Hypoglycaemia",
+      "Focal deficit"
+    ],
+    "differentials": [
+      {
+        "name": "Febrile seizure",
+        "category": "neurologic",
+        "support_keywords": [
+          "fever",
+          "age",
+          "generalized",
+          "brief"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Epileptic seizure",
+        "category": "neurologic",
+        "support_keywords": [
+          "recurrent",
+          "afebrile",
+          "postictal"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "CNS infection",
+        "category": "infectious",
+        "support_keywords": [
+          "meningism",
+          "lethargy",
+          "fever"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Metabolic/toxic cause",
+        "category": "metabolic",
+        "support_keywords": [
+          "glucose",
+          "electrolyte",
+          "ingestion"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Structural CNS lesion",
+        "category": "structural",
+        "support_keywords": [
+          "focal",
+          "trauma",
+          "persistent"
+        ],
+        "base_priority": "high"
+      }
+    ],
+    "key_history_questions": [
+      "Exact age",
+      "Fever",
+      "Duration/type",
+      "Recovery",
+      "Previous seizures",
+      "Ingestion/medication",
+      "Trauma"
+    ],
+    "focused_examination": [
+      "ABCs/glucose",
+      "Pediatric vitals",
+      "Neurological examination",
+      "Meningeal signs as appropriate"
+    ],
+    "initial_evaluation": [
+      "Glucose immediately",
+      "Further labs/EEG/imaging/CSF depend on age, seizure type, recovery and red flags"
+    ],
+    "reference_ids": [
+      "NMS-CORE-2026",
+      "AAP-CPG",
+      "ACR-AC",
+      "IDSA-GUIDELINES"
+    ]
+  },
+  {
+    "id": "SHOCK",
+    "specialty": "emergency",
+    "aliases": [
+      "shock",
+      "hypotension",
+      "poor perfusion"
+    ],
+    "syndrome": "Shock / circulatory failure",
+    "red_flags": [
+      "Hypotension",
+      "Altered mental status",
+      "Cool/mottled skin",
+      "Oliguria",
+      "Severe tachycardia/bradycardia",
+      "Lactate elevation"
+    ],
+    "differentials": [
+      {
+        "name": "Hypovolaemic/haemorrhagic shock",
+        "category": "emergency",
+        "support_keywords": [
+          "bleeding",
+          "dehydration",
+          "trauma"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Septic/distributive shock",
+        "category": "emergency",
+        "support_keywords": [
+          "fever",
+          "infection",
+          "warm"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Cardiogenic shock",
+        "category": "cardiac",
+        "support_keywords": [
+          "chest pain",
+          "mi",
+          "heart failure"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Obstructive shock",
+        "category": "emergency",
+        "support_keywords": [
+          "pe",
+          "tamponade",
+          "tension pneumothorax"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Anaphylactic shock",
+        "category": "allergy",
+        "support_keywords": [
+          "urticaria",
+          "wheeze",
+          "exposure"
+        ],
+        "base_priority": "high"
+      }
+    ],
+    "key_history_questions": [
+      "Bleeding/fluid loss",
+      "Infection",
+      "Chest pain/dyspnoea",
+      "Allergen exposure",
+      "Cardiac history"
+    ],
+    "focused_examination": [
+      "ABCs",
+      "Perfusion",
+      "Full vitals",
+      "Cardiopulmonary examination",
+      "Bleeding source"
+    ],
+    "initial_evaluation": [
+      "Bedside glucose",
+      "ECG",
+      "CBC/chemistry/lactate/ABG or VBG as indicated",
+      "Cultures when sepsis suspected",
+      "Bedside/urgent imaging guided by suspected cause"
+    ],
+    "reference_ids": [
+      "NMS-CORE-2026",
+      "AHA-GUIDELINES",
+      "IDSA-GUIDELINES",
+      "ACR-AC"
+    ]
+  },
+  {
+    "id": "SEPSIS",
+    "specialty": "emergency",
+    "aliases": [
+      "sepsis",
+      "septic shock"
+    ],
+    "syndrome": "Suspected sepsis / infection with organ dysfunction",
+    "red_flags": [
+      "Shock",
+      "Hypoxia",
+      "Altered mental status",
+      "Oliguria",
+      "High lactate/poor perfusion"
+    ],
+    "differentials": [
+      {
+        "name": "Pulmonary source",
+        "category": "infectious",
+        "support_keywords": [
+          "cough",
+          "sputum",
+          "infiltrate"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Urinary source",
+        "category": "infectious",
+        "support_keywords": [
+          "dysuria",
+          "flank",
+          "urine"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Abdominal/biliary source",
+        "category": "infectious",
+        "support_keywords": [
+          "abdominal",
+          "ruq",
+          "jaundice"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "CNS source",
+        "category": "infectious",
+        "support_keywords": [
+          "headache",
+          "meningism",
+          "confusion"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Skin/soft tissue source",
+        "category": "infectious",
+        "support_keywords": [
+          "cellulitis",
+          "wound",
+          "redness"
+        ],
+        "base_priority": "high"
+      }
+    ],
+    "key_history_questions": [
+      "Likely focus",
+      "Recent procedures/devices",
+      "Immunosuppression",
+      "Antibiotics",
+      "Travel/exposures"
+    ],
+    "focused_examination": [
+      "ABCs/perfusion",
+      "Source-directed examination",
+      "Skin/device review"
+    ],
+    "initial_evaluation": [
+      "CBC/chemistry/lactate as clinically appropriate",
+      "Blood and source cultures when indicated",
+      "Imaging for suspected source-control focus"
+    ],
+    "reference_ids": [
+      "NMS-CORE-2026",
+      "IDSA-GUIDELINES",
+      "NICE-GUIDANCE"
+    ]
+  },
+  {
+    "id": "STROKE",
+    "specialty": "emergency",
+    "aliases": [
+      "stroke symptoms",
+      "facial droop",
+      "hemiparesis",
+      "aphasia",
+      "acute focal deficit"
+    ],
+    "syndrome": "Acute focal neurological deficit / possible stroke",
+    "red_flags": [
+      "Airway compromise",
+      "Hypoglycaemia mimic",
+      "Large-vessel syndrome",
+      "Reduced consciousness",
+      "Severe hypertension with complications"
+    ],
+    "differentials": [
+      {
+        "name": "Acute ischemic stroke",
+        "category": "vascular",
+        "support_keywords": [
+          "focal",
+          "aphasia",
+          "face",
+          "arm",
+          "sudden"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Intracranial haemorrhage",
+        "category": "vascular",
+        "support_keywords": [
+          "headache",
+          "vomiting",
+          "anticoagulant",
+          "severe bp"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Seizure/postictal deficit",
+        "category": "neurologic",
+        "support_keywords": [
+          "seizure",
+          "postictal"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Hypoglycaemia/metabolic mimic",
+        "category": "metabolic",
+        "support_keywords": [
+          "glucose",
+          "diabetes"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Migraine/other mimic",
+        "category": "neurologic",
+        "support_keywords": [
+          "aura",
+          "prior migraine"
+        ],
+        "base_priority": "moderate"
+      }
+    ],
+    "key_history_questions": [
+      "Last known well/onset",
+      "Anticoagulants",
+      "Baseline function",
+      "Seizure",
+      "Glucose/diabetes",
+      "Recent surgery/bleeding"
+    ],
+    "focused_examination": [
+      "ABCs",
+      "Glucose",
+      "Stroke-focused neurological examination",
+      "Vitals"
+    ],
+    "initial_evaluation": [
+      "Urgent brain imaging and vascular imaging according to stroke pathway/local protocol",
+      "ECG and targeted labs without delaying time-critical care"
+    ],
+    "reference_ids": [
+      "NMS-CORE-2026",
+      "AHA-GUIDELINES",
+      "ACR-AC"
+    ]
+  },
+  {
+    "id": "POISONING",
+    "specialty": "emergency",
+    "aliases": [
+      "poisoning",
+      "overdose",
+      "toxic ingestion",
+      "tablet overdose"
+    ],
+    "syndrome": "Suspected poisoning/toxic exposure",
+    "red_flags": [
+      "Airway compromise",
+      "Respiratory depression",
+      "Shock",
+      "Seizure",
+      "Arrhythmia",
+      "Severe agitation/coma"
+    ],
+    "differentials": [
+      {
+        "name": "Medication overdose",
+        "category": "toxicology",
+        "support_keywords": [
+          "tablet",
+          "dose",
+          "prescription"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Pesticide/chemical exposure",
+        "category": "toxicology",
+        "support_keywords": [
+          "pesticide",
+          "organophosphate",
+          "chemical"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Alcohol/sedative intoxication",
+        "category": "toxicology",
+        "support_keywords": [
+          "alcohol",
+          "sedative",
+          "opioid"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Toxic gas/environmental exposure",
+        "category": "toxicology",
+        "support_keywords": [
+          "gas",
+          "smoke",
+          "carbon monoxide"
+        ],
+        "base_priority": "high"
+      }
+    ],
+    "key_history_questions": [
+      "Substance/product",
+      "Amount/concentration",
+      "Time",
+      "Route",
+      "Co-ingestants",
+      "Intent",
+      "Container/label"
+    ],
+    "focused_examination": [
+      "ABCs",
+      "Pupils",
+      "Secretions/skin",
+      "Neurological status",
+      "ECG monitoring where appropriate"
+    ],
+    "initial_evaluation": [
+      "Glucose",
+      "ECG",
+      "Targeted metabolic/toxicology tests based on agent",
+      "Contact local poison/toxicology service"
+    ],
+    "reference_ids": [
+      "NMS-CORE-2026",
+      "NICE-GUIDANCE"
+    ]
+  },
+  {
+    "id": "ANAPHYLAXIS",
+    "specialty": "emergency",
+    "aliases": [
+      "anaphylaxis",
+      "allergic reaction",
+      "urticaria with breathing difficulty"
+    ],
+    "syndrome": "Possible anaphylaxis",
+    "red_flags": [
+      "Airway swelling",
+      "Stridor",
+      "Wheeze/respiratory compromise",
+      "Hypotension/collapse"
+    ],
+    "differentials": [
+      {
+        "name": "Anaphylaxis",
+        "category": "allergy",
+        "support_keywords": [
+          "allergen",
+          "urticaria",
+          "wheeze",
+          "hypotension"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Isolated urticaria/angioedema",
+        "category": "allergy",
+        "support_keywords": [
+          "rash",
+          "swelling"
+        ],
+        "base_priority": "moderate"
+      },
+      {
+        "name": "Asthma/other respiratory event",
+        "category": "respiratory",
+        "support_keywords": [
+          "wheeze",
+          "asthma"
+        ],
+        "base_priority": "high"
+      },
+      {
+        "name": "Vasovagal event",
+        "category": "other",
+        "support_keywords": [
+          "bradycardia",
+          "trigger",
+          "rapid recovery"
+        ],
+        "base_priority": "moderate"
+      }
+    ],
+    "key_history_questions": [
+      "Trigger/exposure",
+      "Timing",
+      "Airway/breathing symptoms",
+      "Previous reaction",
+      "Medication history"
+    ],
+    "focused_examination": [
+      "Immediate ABC assessment",
+      "Airway/voice",
+      "Breathing",
+      "Perfusion",
+      "Skin/mucosa"
+    ],
+    "initial_evaluation": [
+      "Diagnosis is primarily clinical; monitoring and targeted tests depend on severity and local protocol"
+    ],
+    "reference_ids": [
+      "NMS-CORE-2026",
+      "NICE-GUIDANCE"
+    ]
+  }
+]
